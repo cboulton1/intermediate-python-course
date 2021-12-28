@@ -3,7 +3,7 @@ def accept_pos_int(prompt):
     try:
       val = int(input(prompt))
       if val >= 1:
-        return int(val)
+        return val
       else:
         raise ValueError
     except ValueError:
